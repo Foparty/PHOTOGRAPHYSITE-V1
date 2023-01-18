@@ -25,7 +25,7 @@ const IndividualProject = () => {
 	});
 
 	return (
-		<div className='individual-container'>
+		<main className='individual-container'>
 			{/* <div className='page-title'>{id}</div>
 			<div className='project-text'>{text}</div> */}
 			<img src={imgs} alt='' />
@@ -38,7 +38,7 @@ const IndividualProject = () => {
 			<aside className='project-text'>
 				<p>{text}</p>
 			</aside>
-		</div>
+		</main>
 	);
 };
 

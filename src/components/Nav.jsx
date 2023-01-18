@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './modules.Nav.css';
+import './Nav.css';
 const Nav = () => {
 	const darkMode = function () {
 		document.body.classList.toggle('dark');
@@ -26,7 +26,7 @@ const Nav = () => {
 	}
 	windowResize();
 	return (
-		<>
+		<header>
 			<div className='night-mode'>
 				<div className='toggle-container'>
 					<button onClick={darkMode}>
@@ -47,10 +47,10 @@ const Nav = () => {
 					<nav className='mobile-nav'>
 						<ul className='primary-nav'>
 							<li className='nav-link'>
-								<a href='#'>Work</a>
+								<Link to='/'>Work</Link>
 							</li>
 							<li className='nav-link'>
-								<a href='#'>Words</a>
+								<Link to='/'>Words</Link>
 							</li>
 						</ul>
 						<ul className='secondary-nav'>
@@ -58,20 +58,20 @@ const Nav = () => {
 								<Link to='/about'>About</Link>
 							</li>
 							<li className='nav-link'>
-								<a href='#'>Info</a>
+								<Link to='/info'>Info</Link>
 							</li>
 							<li className='nav-link'>
-								<a href='#'>...</a>
+								<Link to='/more'>...</Link>
 							</li>
 						</ul>
 					</nav>
 					<nav className='screen-nav'>
 						<ul className='primary-nav'>
 							<li className='nav-link'>
-								<a href='#'>Work</a>
+								<Link to='/'>Work</Link>
 							</li>
 							<li className='nav-link'>
-								<a href='#'>Words</a>
+								<Link to='/'>Words</Link>
 							</li>
 						</ul>
 						<ul className='secondary-nav'>
@@ -79,16 +79,16 @@ const Nav = () => {
 								<Link to='/about'>About</Link>
 							</li>
 							<li className='nav-link'>
-								<a href='#'>Info</a>
+								<Link to='/info'>Info</Link>
 							</li>
 							<li className='nav-link'>
-								<a href='#'>...</a>
+								<Link to='/more'>...</Link>
 							</li>
 						</ul>
 					</nav>
 				</div>
 			</div>
-		</>
+		</header>
 	);
 };
 

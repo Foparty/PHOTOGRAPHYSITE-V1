@@ -6,25 +6,26 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
 	return (
-		<div className='container'>
+		<main className='container'>
 			{projects.map((project, index) => {
 				return (
 					<>
 						<Link
 							to={`/${project.url}`}
-							key={index}
+							key={project.id}
 							className={project.col + ` img-container`}
 						>
 							<ImageGalleryItem
-								title={project.title}
+								title={project.url}
 								src={project.imgs}
-								key={index}
+								key={project.id}
+								location={project.location}
 							/>
 						</Link>
 					</>
 				);
 			})}
-		</div>
+		</main>
 	);
 };
 

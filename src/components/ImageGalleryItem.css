@@ -1,0 +1,17 @@
+.sm-title {
+	font-size: 1.3rem;
+	line-height: 1;
+	font-weight: 900;
+}
+.sm-location {
+	font-size: 0.9rem;
+	font-weight: 300;
+	line-height: 2.4;
+}
+
+@media (min-width: 45rem) {
+	.sm-location,
+	.sm-title {
+		display: none;
+	}
+}
