@@ -1,0 +1,26 @@
+.individual-container {
+	width: calc(100% - 2rem);
+	margin-top: 2rem;
+	margin-inline: auto;
+
+	grid-area: content;
+}
+
+@media (min-width: 45rem) {
+	.individual-container {
+		margin-top: 1rem;
+	}
+	.individual-container img {
+		width: min(100%, 45rem);
+	}
+}
+
+@media (min-width: 90rem) {
+	.individual-container {
+		margin-top: 3rem;
+	}
+	.individual-container img {
+		width: auto;
+		max-height: 85vh;
+	}
+}

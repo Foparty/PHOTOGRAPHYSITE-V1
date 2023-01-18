@@ -10,12 +10,6 @@
 	gap: 5rem;
 }
 
-.individual-container {
-	width: calc(100% - 2rem);
-	margin: 2rem 0 0 auto;
-	grid-area: content;
-}
-
 .img-container {
 	margin: 1.5rem 0;
 }
