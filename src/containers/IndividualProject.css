@@ -6,6 +6,16 @@
 	grid-area: content;
 }
 
+.project-info {
+	font-size: 0.7rem;
+	padding: 1rem 0;
+	line-height: 1.3;
+}
+
+.project-info h1 {
+	padding: 1rem 0;
+}
+
 @media (min-width: 45rem) {
 	.individual-container {
 		margin-top: 1rem;

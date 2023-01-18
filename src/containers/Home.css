@@ -55,7 +55,7 @@
 		margin-inline: auto;
 		grid-template-columns: repeat(12, 1fr);
 		grid-auto-rows: 100px;
-		gap: 0.6rem;
+		gap: 0.5rem;
 		grid-auto-flow: dense;
 	}
 
