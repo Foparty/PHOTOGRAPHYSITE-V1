@@ -1,0 +1,48 @@
+.individual-container.contact {
+	text-align: left;
+	margin-inline: 0;
+}
+.individual-container.contact h2 {
+	text-align: center;
+}
+.info-data h2 {
+	font-size: 1rem;
+	font-weight: 900;
+	letter-spacing: 2px;
+	margin: 0.7rem 0;
+}
+
+.contact-group {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.4rem;
+}
+
+.contact-group *:hover {
+	transform: scale(1.07);
+	transition: 0.2s ease-in;
+}
+
+@media (min-width: 45rem) {
+	.info-data {
+		text-align: left;
+	}
+	.individual-container.contact {
+		text-align: left;
+		margin-inline: auto;
+	}
+	.individual-container.contact h2 {
+		text-align: left;
+	}
+	.contact-group {
+		width: 100%;
+		text-align: left;
+		justify-content: flex-start;
+	}
+}
+@media (min-width: 90rem) {
+	.info-data h2:first-child {
+		margin-top: 0;
+	}
+}
