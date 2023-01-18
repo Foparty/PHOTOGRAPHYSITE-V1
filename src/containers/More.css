@@ -1,0 +1,15 @@
+.individual-container.more img {
+	max-width: 30rem;
+	display: block;
+	margin-inline: auto;
+}
+
+.img-combined {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 90rem) {
+	.individual-container.more img:first-of-type {
+	}
+}
