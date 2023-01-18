@@ -1,0 +1,167 @@
+.main-nav {
+	/* margin-top: 2rem; */
+	text-align: center;
+	margin-inline: auto;
+	width: 100%;
+}
+
+.logo {
+	font-size: 1.1rem;
+	margin-bottom: 1.7rem;
+	letter-spacing: 5px;
+	font-weight: 500;
+}
+.nav-toggle-container {
+	width: calc(100% - 1rem);
+	display: flex;
+	justify-content: flex-end;
+	cursor: pointer;
+}
+.nav-toggle-container button {
+	background: none;
+	border: none;
+}
+.nav-toggle {
+	color: var(--fg);
+}
+.dark .nav-toggle {
+	color: var(--bg);
+}
+.screen-nav {
+	display: none;
+}
+.mobile-nav {
+	display: none;
+	transform: translateY(-100%);
+	flex-direction: column;
+	align-items: center;
+}
+.mobile-nav.shown {
+	transform: translateY(0);
+}
+.mobile-nav > ul {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+ul {
+	list-style: none;
+	font-weight: 200;
+	letter-spacing: 3px;
+}
+
+.primary-nav {
+	font-weight: 500;
+}
+
+.secondary-nav {
+	font-weight: 200;
+}
+
+.night-mode {
+	width: min(100% - 2rem, 75rem);
+	margin-inline: auto;
+	padding-top: 1rem;
+	font-size: 1.3rem;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.toggle-container button {
+	border: none;
+	background: none;
+	color: var(--fg);
+}
+.dark .toggle-container button {
+	color: var(--bg);
+}
+
+@media (min-width: 31rem) {
+	.main-nav {
+		width: 30rem;
+	}
+	.logo {
+		font-size: 1.7;
+	}
+	.nav-toggle {
+		display: none;
+	}
+	.screen-nav {
+		display: flex;
+	}
+	.screen-nav {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.screen-nav > ul {
+		flex: 1;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	ul {
+		list-style: none;
+		font-weight: 200;
+		letter-spacing: 3px;
+	}
+
+	.primary-nav {
+		font-weight: 500;
+	}
+
+	.secondary-nav {
+		font-weight: 200;
+	}
+}
+
+@media (min-width: 45rem) {
+	.nav-link {
+		margin-bottom: 0.5rem;
+	}
+}
+
+@media (min-width: 90rem) {
+	.night-mode {
+		position: absolute;
+		width: 100%;
+		font-size: 1.3rem;
+	}
+	.toggle-container {
+		width: 75rem;
+		margin-inline: auto;
+		display: flex;
+		justify-content: flex-end;
+		padding: 0 1rem;
+	}
+	.main-nav {
+		margin-top: 0;
+		grid-area: nav;
+		position: absolute;
+		text-align: right;
+		max-width: 7.4rem;
+		top: 3rem;
+		right: 0;
+	}
+	.fixed-container {
+		width: 7.6rem;
+		position: fixed;
+		top: 3rem;
+	}
+	.logo {
+		font-size: 1rem;
+		text-align: right;
+		margin-bottom: 1.6rem;
+	}
+	.screen-nav {
+		display: block;
+	}
+	.screen-nav > ul {
+		display: block;
+	}
+	.secondary-nav {
+		margin-top: 2rem;
+		font-size: 0.8rem;
+	}
+}
