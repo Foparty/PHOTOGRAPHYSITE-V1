@@ -55,7 +55,7 @@ const Nav = () => {
 						</ul>
 						<ul className='secondary-nav'>
 							<li className='nav-link'>
-								<a href='#'>About</a>
+								<Link to='/about'>About</Link>
 							</li>
 							<li className='nav-link'>
 								<a href='#'>Info</a>
@@ -76,7 +76,7 @@ const Nav = () => {
 						</ul>
 						<ul className='secondary-nav'>
 							<li className='nav-link'>
-								<a href='#'>About</a>
+								<Link to='/about'>About</Link>
 							</li>
 							<li className='nav-link'>
 								<a href='#'>Info</a>

@@ -11,7 +11,7 @@
 
 .individual-container {
 	width: calc(100% - 2rem);
-	margin: 0 auto;
+	margin: 2rem 0 0 auto;
 	grid-area: content;
 }
 
@@ -30,6 +30,16 @@
 	object-fit: cover;
 	object-position: center center;
 }
+.about-author {
+	display: block;
+	max-width: 60ch;
+	margin-inline: auto;
+	text-align: right;
+}
+.individual-container img.about-img {
+	margin: 2rem auto;
+	width: 50%;
+}
 
 @media (min-width: 45rem) {
 	.container {
@@ -47,6 +57,17 @@
 		grid-area: content;
 		margin: 1rem 0;
 		width: min(100% - 2rem, 75rem);
+		/* grid-template-columns: repeat(1, 1fr); */
+		margin-inline: auto;
+	}
+	.individual-container h2 {
+		width: 100%;
+		text-align: center;
+	}
+	.individual-container p {
+		text-align: left;
+		padding: 0.7rem 0;
+		max-width: 60ch;
 		margin-inline: auto;
 	}
 
@@ -198,6 +219,7 @@
 	.individual-container img {
 		max-height: 100%;
 	}
+
 	.toggle-container {
 		width: 75rem;
 		margin-inline: auto;
