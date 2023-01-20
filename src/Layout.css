@@ -12,6 +12,35 @@
 #root {
 	padding-bottom: 3rem;
 }
+.container:has(.words) {
+	gap: 1rem;
+}
+.img-container.words {
+	box-shadow: none;
+	margin: 0;
+}
+.words {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	/* justify-content: center; */
+	align-items: center;
+	/* container-type: inline-size; */
+}
+
+.words img {
+	display: none;
+}
+
+.words h2 {
+	display: block;
+	white-space: nowrap;
+	font-weight: 600;
+}
+
+.words h4 {
+	display: none;
+}
 
 /* --------------------------HOME-------------------------- */
 .img-container {
@@ -220,6 +249,9 @@
 	}
 	.container.single aside {
 		text-align: left;
+	}
+	.words {
+		justify-content: center;
 	}
 }
 @media (min-width: 90rem) {

@@ -9,6 +9,7 @@ const IndividualProject = () => {
 	const [date, setDate] = useState('');
 	const [shot, setShot] = useState('');
 	const [id, setId] = useState(useParams().id);
+	const [index, setIndex] = useState('');
 
 	useEffect(() => {
 		for (let i = 0; i < projects.length; i++) {
@@ -19,6 +20,7 @@ const IndividualProject = () => {
 				setLocation(obj.location);
 				setDate(obj.date);
 				setShot(obj.shot);
+				setIndex(obj.id);
 			}
 		}
 	});

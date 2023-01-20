@@ -11,7 +11,7 @@ const Home = () => {
 					<>
 						<Link
 							to={`/${project.url}`}
-							key={project.id}
+							key={index}
 							className={project.col + ` img-container`}
 						>
 							<ImageGalleryItem

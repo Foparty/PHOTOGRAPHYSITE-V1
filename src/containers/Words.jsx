@@ -12,13 +12,14 @@ const Words = () => {
 						<Link
 							to={`/${project.url}`}
 							key={project.id}
-							className={project.col + ` img-container`}
+							className={project.col + ` img-container words`}
 						>
 							<WordsGalleryItem
 								title={project.url}
 								src={project.imgs}
 								key={project.id}
 								location={project.location}
+								wz={project.wz}
 							/>
 						</Link>
 					</>

@@ -1,0 +1,5 @@
+@media (min-width: 45rem) {
+	.rotate {
+		transform: rotate(-90deg);
+	}
+}
