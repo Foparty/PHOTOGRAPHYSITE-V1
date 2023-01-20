@@ -1,9 +1,9 @@
 import React from 'react';
-import ImageGalleryItem from '../components/ImageGalleryItem';
+import WordsGalleryItem from '../components/WordsGalleryItem';
 import { projects } from '../data.js';
 import { Link } from 'react-router-dom';
 
-const Home = () => {
+const Words = () => {
 	return (
 		<main className='container'>
 			{projects.map((project, index) => {
@@ -14,7 +14,7 @@ const Home = () => {
 							key={project.id}
 							className={project.col + ` img-container`}
 						>
-							<ImageGalleryItem
+							<WordsGalleryItem
 								title={project.url}
 								src={project.imgs}
 								key={project.id}
@@ -28,4 +28,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default Words;

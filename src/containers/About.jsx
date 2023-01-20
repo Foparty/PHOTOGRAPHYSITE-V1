@@ -3,7 +3,7 @@ import img50 from '../assets/imghd/img00050.jpg';
 
 const About = () => {
 	return (
-		<article className='individual-container'>
+		<article className='container single about'>
 			<h2>El viaje de la mirada</h2>
 
 			<p>

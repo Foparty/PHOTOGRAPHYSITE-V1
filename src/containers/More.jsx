@@ -1,5 +1,4 @@
 import React from 'react';
-import './More.css';
 import more1 from '../assets/imghd/more1.webp';
 import more2 from '../assets/imghd/more2.webp';
 import more3 from '../assets/imghd/more3.webp';
@@ -8,7 +7,7 @@ import more5 from '../assets/imghd/more5.webp';
 
 const More = () => {
 	return (
-		<main className='individual-container more'>
+		<main className='container single more'>
 			--
 			<p>
 				Qué satisfacción es cruzarse con Entes Brillantes. Personas, edificios,

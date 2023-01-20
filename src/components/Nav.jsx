@@ -26,7 +26,7 @@ const Nav = () => {
 	}
 	windowResize();
 	return (
-		<header>
+		<header className='header'>
 			<div className='night-mode'>
 				<div className='toggle-container'>
 					<button onClick={darkMode}>
@@ -50,7 +50,7 @@ const Nav = () => {
 								<Link to='/'>Work</Link>
 							</li>
 							<li className='nav-link'>
-								<Link to='/'>Words</Link>
+								<Link to='/words'>Words</Link>
 							</li>
 						</ul>
 						<ul className='secondary-nav'>
@@ -71,7 +71,7 @@ const Nav = () => {
 								<Link to='/'>Work</Link>
 							</li>
 							<li className='nav-link'>
-								<Link to='/'>Words</Link>
+								<Link to='/words'>Words</Link>
 							</li>
 						</ul>
 						<ul className='secondary-nav'>

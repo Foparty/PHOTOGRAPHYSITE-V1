@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+import './Layout.css';
 import Nav from './components/Nav';
 import {
 	Home,
@@ -6,6 +7,7 @@ import {
 	About,
 	ContactInfo,
 	More,
+	Words,
 } from './containers/';
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
 			<Nav />
 			<Routes>
 				<Route exact path='/' element={<Home />} />
+				<Route exact path='/words' element={<Words />} />
 				<Route path='/:id' element={<IndividualProject />} />
 				<Route path='/about' element={<About />} />
 				<Route path='/info' element={<ContactInfo />} />

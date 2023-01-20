@@ -1,9 +1,8 @@
 import React from 'react';
-import './ContactInfo.css';
 
 const ContactInfo = () => {
 	return (
-		<div className='individual-container contact'>
+		<div className='container single contact'>
 			<div className='info-data'>
 				<h2 className='info-data-title'>Contact</h2>
 				<div className='contact-group'>
