@@ -1,4 +1,26 @@
-.individual-container.contact {
+.stupidfont {
+	font-family: 'KlinicSlab', monospace;
+}
+.roboto {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.bolder {
+	font-weight: 900;
+}
+.bold {
+	font-weight: 700;
+}
+.regular {
+	font-weight: 400;
+}
+.normal {
+	font-style: normal;
+}
+.italic {
+	font-style: italic;
+}
+/* .individual-container.contact {
 	text-align: left;
 	margin-inline: 0;
 }
@@ -45,4 +67,4 @@
 	.info-data h2:first-child {
 		margin-top: 0;
 	}
-}
+} */

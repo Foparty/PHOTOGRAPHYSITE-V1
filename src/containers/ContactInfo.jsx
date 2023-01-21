@@ -1,4 +1,5 @@
 import React from 'react';
+import './ContactInfo.css';
 
 const ContactInfo = () => {
 	return (
@@ -42,6 +43,114 @@ const ContactInfo = () => {
 					<i className='fa-solid fa-copyright'></i>
 					<span>Gabriel Asdrúbal</span>
 				</div>
+			</div>
+			<div className='bolder normal stupidfont'>
+				<h1>Some Stupid egocentric Title</h1>
+				<h2>Some Stupid egocentric Title</h2>
+				<h3>Some Stupid egocentric Title</h3>
+				<h4>Some Stupid egocentric Title</h4>
+				<h5>Some Stupid egocentric Title</h5>
+				<h6>Some Stupid egocentric Title</h6>
+				<p>Some Stupid egocentric Title</p>
+			</div>
+			<div className='bold normal stupidfont'>
+				<h1>Some Stupid egocentric Title</h1>
+				<h2>Some Stupid egocentric Title</h2>
+				<h3>Some Stupid egocentric Title</h3>
+				<h4>Some Stupid egocentric Title</h4>
+				<h5>Some Stupid egocentric Title</h5>
+				<h6>Some Stupid egocentric Title</h6>
+				<p>Some Stupid egocentric Title</p>
+			</div>
+			<div className='regular normal stupidfont'>
+				<h1>Some Stupid egocentric Title</h1>
+				<h2>Some Stupid egocentric Title</h2>
+				<h3>Some Stupid egocentric Title</h3>
+				<h4>Some Stupid egocentric Title</h4>
+				<h5>Some Stupid egocentric Title</h5>
+				<h6>Some Stupid egocentric Title</h6>
+				<p>Some Stupid egocentric Title</p>
+			</div>
+			<div className='bolder italic stupidfont'>
+				<h1>Some Stupid egocentric Title</h1>
+				<h2>Some Stupid egocentric Title</h2>
+				<h3>Some Stupid egocentric Title</h3>
+				<h4>Some Stupid egocentric Title</h4>
+				<h5>Some Stupid egocentric Title</h5>
+				<h6>Some Stupid egocentric Title</h6>
+				<p>Some Stupid egocentric Title</p>
+			</div>
+			<div className='bold italic stupidfont'>
+				<h1>Some Stupid egocentric Title</h1>
+				<h2>Some Stupid egocentric Title</h2>
+				<h3>Some Stupid egocentric Title</h3>
+				<h4>Some Stupid egocentric Title</h4>
+				<h5>Some Stupid egocentric Title</h5>
+				<h6>Some Stupid egocentric Title</h6>
+				<p>Some Stupid egocentric Title</p>
+			</div>
+			<div className='regular italic stupidfont'>
+				<h1>Some Stupid egocentric Title</h1>
+				<h2>Some Stupid egocentric Title</h2>
+				<h3>Some Stupid egocentric Title</h3>
+				<h4>Some Stupid egocentric Title</h4>
+				<h5>Some Stupid egocentric Title</h5>
+				<h6>Some Stupid egocentric Title</h6>
+				<p>Some Stupid egocentric Title</p>
+			</div>
+			<div className='bolder normal roboto'>
+				<h1>Some Stupid egocentric Title</h1>
+				<h2>Some Stupid egocentric Title</h2>
+				<h3>Some Stupid egocentric Title</h3>
+				<h4>Some Stupid egocentric Title</h4>
+				<h5>Some Stupid egocentric Title</h5>
+				<h6>Some Stupid egocentric Title</h6>
+				<p>Some Stupid egocentric Title</p>
+			</div>
+			<div className='bold normal roboto'>
+				<h1>Some Stupid egocentric Title</h1>
+				<h2>Some Stupid egocentric Title</h2>
+				<h3>Some Stupid egocentric Title</h3>
+				<h4>Some Stupid egocentric Title</h4>
+				<h5>Some Stupid egocentric Title</h5>
+				<h6>Some Stupid egocentric Title</h6>
+				<p>Some Stupid egocentric Title</p>
+			</div>
+			<div className='regular normal roboto'>
+				<h1>Some Stupid egocentric Title</h1>
+				<h2>Some Stupid egocentric Title</h2>
+				<h3>Some Stupid egocentric Title</h3>
+				<h4>Some Stupid egocentric Title</h4>
+				<h5>Some Stupid egocentric Title</h5>
+				<h6>Some Stupid egocentric Title</h6>
+				<p>Some Stupid egocentric Title</p>
+			</div>
+			<div className='bolder italic roboto'>
+				<h1>Some Stupid egocentric Title</h1>
+				<h2>Some Stupid egocentric Title</h2>
+				<h3>Some Stupid egocentric Title</h3>
+				<h4>Some Stupid egocentric Title</h4>
+				<h5>Some Stupid egocentric Title</h5>
+				<h6>Some Stupid egocentric Title</h6>
+				<p>Some Stupid egocentric Title</p>
+			</div>
+			<div className='bold italic roboto'>
+				<h1>Some Stupid egocentric Title</h1>
+				<h2>Some Stupid egocentric Title</h2>
+				<h3>Some Stupid egocentric Title</h3>
+				<h4>Some Stupid egocentric Title</h4>
+				<h5>Some Stupid egocentric Title</h5>
+				<h6>Some Stupid egocentric Title</h6>
+				<p>Some Stupid egocentric Title</p>
+			</div>
+			<div className='regular italic roboto'>
+				<h1>Some Stupid egocentric Title</h1>
+				<h2>Some Stupid egocentric Title</h2>
+				<h3>Some Stupid egocentric Title</h3>
+				<h4>Some Stupid egocentric Title</h4>
+				<h5>Some Stupid egocentric Title</h5>
+				<h6>Some Stupid egocentric Title</h6>
+				<p>Some Stupid egocentric Title</p>
 			</div>
 		</div>
 	);
