@@ -4,7 +4,6 @@
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	gap: 5rem;
-	border: 1px solid red;
 }
 [class^='col-'] {
 	height: 100%;
@@ -303,4 +302,29 @@
 	.container.single.more {
 		max-width: 45rem;
 	}
+}
+
+/* font related */
+
+.stupidfont {
+	font-family: 'KlinicSlab', monospace;
+}
+.roboto {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.bolder {
+	font-weight: 900;
+}
+.bold {
+	font-weight: 700;
+}
+.regular {
+	font-weight: 400;
+}
+.normal {
+	font-style: normal;
+}
+.italic {
+	font-style: italic;
 }

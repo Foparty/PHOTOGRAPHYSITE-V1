@@ -4,27 +4,15 @@
 	gap: 0.4rem;
 }
 
-.wz-1 {
-	font-size: clamp(3.6rem, 13.54vw, 7.2rem);
-	font-weight: 900;
-}
-.wz-2 {
-	font-size: clamp(2.6rem, 12.9vw, 6rem);
-	font-weight: 900;
-}
-.wz-3 {
-	font-size: clamp(1.6rem, 9.1vw, 4.2rem);
-	font-weight: 900;
-}
-.wz-4 {
-	font-size: clamp(3.6rem, 14.3vw, 7.2rem);
-	font-weight: 900;
-}
-
 svg {
 	width: 100%;
+	fill: var(--fg);
+}
+.dark svg {
+	fill: var(--bg);
 }
 svg text {
+	font-weight: 900;
 	color: var(--fg);
 }
 

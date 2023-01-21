@@ -2,14 +2,14 @@ import React from 'react';
 // import '../../node_modules/fitty/dist/fitty.min';
 import './WordsGalleryItem.css';
 
-const WordsGalleryItem = ({ title, src, location, wz }) => {
+const WordsGalleryItem = ({ title, src, location, wz, svgvalue, fw }) => {
 	return (
 		<>
 			{/* <h1>{title}</h1> */}
 			<img src={src} alt={title} />
 			{/* <h2 className={wz + ` sm-title`}>{title}</h2> */}
-			<svg viewBox='0 0 150 16'>
-				<text x='0' y='15'>
+			<svg viewBox={`0 0 ` + svgvalue + ` 16`} className={wz}>
+				<text x='0' y='12' className={fw}>
 					{title}
 				</text>
 			</svg>

@@ -20,6 +20,8 @@ const Words = () => {
 								key={project.id}
 								location={project.location}
 								wz={project.wz}
+								svgvalue={project.svgvalue}
+								fw={project.fw}
 							/>
 						</Link>
 					</>
