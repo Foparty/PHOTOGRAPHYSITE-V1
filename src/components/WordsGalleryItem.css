@@ -21,6 +21,13 @@
 	font-weight: 900;
 }
 
+svg {
+	width: 100%;
+}
+svg text {
+	color: var(--fg);
+}
+
 @media (min-width: 45rem) {
 	.rotate {
 		transform: rotate(-90deg);
