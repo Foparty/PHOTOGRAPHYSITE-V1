@@ -8,6 +8,7 @@ import {
 	ContactInfo,
 	More,
 	Words,
+	NotFound,
 } from './containers/';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
 				<Route path='/about' element={<About />} />
 				<Route path='/info' element={<ContactInfo />} />
 				<Route path='/more' element={<More />} />
+				<Route path='*' element={<NotFound />} />
 			</Routes>
 		</>
 	);
