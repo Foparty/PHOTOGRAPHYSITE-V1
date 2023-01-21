@@ -64,7 +64,7 @@ dd {
 }
 
 body {
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'KlinicSlab', 'Roboto Mono', monospace;
 	font-size: 16px;
 	font-weight: 300;
 	background-color: var(--bg);
