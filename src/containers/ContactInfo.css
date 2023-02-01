@@ -1,3 +1,15 @@
+.info-data {
+	letter-spacing: 5px;
+}
+.contact-group {
+	padding: 1rem 0;
+	padding-left: 1.4rem;
+	letter-spacing: 3px;
+}
+
+.container.single.contact {
+	padding-left: 2rem;
+}
 .stupidfont {
 	font-family: 'KlinicSlab', monospace;
 }
